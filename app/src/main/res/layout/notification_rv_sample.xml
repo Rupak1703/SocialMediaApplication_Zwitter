@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notify_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img_atNotification"
+        android:layout_width="@dimen/_40mdp"
+        android:layout_height="@dimen/_40mdp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="2dp"
+        android:src="@drawable/ap4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/statusCircle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/orange_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_img_atNotification"
+        app:layout_constraintEnd_toEndOf="@+id/profile_img_atNotification"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profile_img_atNotification"
+        app:layout_constraintTop_toTopOf="@+id/profile_img_atNotification"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/show_notification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Nirbhay liked your post.."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12mdp"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_img_atNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_img_atNotification"
+        app:layout_constraintTop_toTopOf="@+id/profile_img_atNotification"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/show_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="just now"
+        app:layout_constraintStart_toStartOf="@+id/show_notification"
+        app:layout_constraintTop_toBottomOf="@+id/show_notification" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

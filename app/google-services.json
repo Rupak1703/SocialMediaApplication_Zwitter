@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613751483766",
+    "project_id": "zwitter-bd901",
+    "storage_bucket": "zwitter-bd901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613751483766:android:6ef5a419979f28b24ede57",
+        "android_client_info": {
+          "package_name": "com.example.zwitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613751483766-erccrs13311jsrtm6cs82q2dugu86d4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCywq_VrhtzIlLTQlsuzipmjbIX70qfyMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613751483766-erccrs13311jsrtm6cs82q2dugu86d4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
